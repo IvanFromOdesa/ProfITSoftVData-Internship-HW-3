@@ -4,7 +4,7 @@ import java.time.Instant;
 
 public class ExMainClass {
     private String stringProperty;
-    @Property(expectedPropertyName = "number")
+    @Property(expectedPropertyName = "f.number")
     private int numberProperty;
     private Instant timeProperty;
     // We don't care as long as we have above types of field present

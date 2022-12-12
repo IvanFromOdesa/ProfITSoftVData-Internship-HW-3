@@ -87,6 +87,10 @@ public final class TaskTwo {
                                                       Property propertyAnnotation,
                                                       Path propertiesPath) {
         String fieldName = propertyAnnotation.expectedPropertyName();
+        // If we have prefix in annotation property, extract value after dot
+        if(fieldName.contains(".")) {
+            fieldName = fieldName.substring(fieldName.indexOf(".") + 1);
+        }
         // expectedPropertyName not specified
         if(fieldName.equals("")) {
             fieldName = field.getName();

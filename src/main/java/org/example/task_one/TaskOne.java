@@ -28,7 +28,7 @@ public class TaskOne {
     // For the files of size 12 mb each, 22 files, 500 thousand str in each file
     // 4 and 8 work pretty much with the same speed (equal conditions)
     // 6 cores, 12 threads, 8GB DDR4 3200 RAM
-    // 8 threads = to read: +- 1100
+    // 8 threads = to read: +-1100
     // 4 threads = to read: +-1100
     // 2 threads = to read: +-1400
     // single-thread = to read: +-1800

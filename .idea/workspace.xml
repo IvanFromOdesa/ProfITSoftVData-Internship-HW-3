@@ -4,62 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0263daab-6cf4-4960-93c7-5b38b1ad7412" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task_one/TaskOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task_one/TrafficViolation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task_one/ViolationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task_one/json_map_converter/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task_one/json_map_converter/OutputJsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task_two/ExMainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task_two/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task_two/TaskTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2002.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2003.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2004.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2005.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2006.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2007.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2008.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2010.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2011.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2012.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2013.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2014.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2015.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2016.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2017.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2018.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2019.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2020.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2021.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2022.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/moving_violations/json/mv_2023.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TaskTwoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClassAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClassAnnotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClassAnnotatedInstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClassAnnotatedInstantFailure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClassFieldNameSameTypeDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClassNoAllowedFTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClassNoPublicConstr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exmaple_classes/ExampleClassParseFailureInstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/app.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/appDateTimeFormatChange.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/appEmpty.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/appForAnnotation.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/appIllegalFormat.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/appMalformedDateTimeFormat.properties" afterDir="false" />
+    <list default="true" id="0263daab-6cf4-4960-93c7-5b38b1ad7412" name="Changes" comment="change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task_one/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task_one/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task_two/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task_two/TaskTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -199,8 +148,30 @@
       <workItem from="1670705614628" duration="37000" />
       <workItem from="1670705676871" duration="596000" />
       <workItem from="1670756317757" duration="36466000" />
-      <workItem from="1670846725492" duration="21669000" />
+      <workItem from="1670846725492" duration="25126000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1670872256804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670872256804</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1670872375058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670872375058</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change">
+      <created>1670872565313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670872565313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,5 +187,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Main_java$TaskTwoTests.ic" NAME="TaskTwoTests Coverage Results" MODIFIED="1670875685476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
