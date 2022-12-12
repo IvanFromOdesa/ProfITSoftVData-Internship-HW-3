@@ -18,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         taskOne();
-        //taskTwo();
+        taskTwo();
     }
 
     private static void taskOne() throws IOException {
