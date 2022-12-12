@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<moving_violations>
+  <mv name="SPEEDING">170117260.00</mv>
+  <mv name="RED_TRAFFIC_LIGHT_DRIVING">149072150.40</mv>
+  <mv name="SUSPENDED_LICENSE_DRIVING">145885940.00</mv>
+  <mv name="DISTRACTED_DRIVING">68533473.40</mv>
+  <mv name="ACDA">62943648.00</mv>
+  <mv name="PARKING_VIOLATION">48576520.45</mv>
+  <mv name="SEATBELT_UNTIED">47743719.15</mv>
+  <mv name="RECKLESS_DRIVING">2404226.60</mv>
+  <mv name="STREET_RACING">2206500.00</mv>
+  <mv name="OFFENSIVE_BEHAVIOUR_TOWARDS_POLICE">2035090.00</mv>
+  <mv name="CARPOOL_LANE_VIOLATION">1494090.00</mv>
+  <mv name="CROSSWALK_STOP_FAILURE">728463.00</mv>
+  <mv name="DRIVING_UNDER_INFLUENCE">99600.00</mv>
+</moving_violations>
