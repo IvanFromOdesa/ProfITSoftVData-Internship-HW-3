@@ -26,6 +26,20 @@ public final class TaskTwo {
             "String", "Integer", "int", "Instant"
     ));
 
+    /**
+     * Creates and returns object of the given class with the attributes filled
+     * with values from the file by the given path. The contract is, the class is
+     * required to have at least one public constructor and at least one of the
+     * allowed types of field {@link #allowedTypes}. It also has to have field names
+     * equal to those in properties file and appropriate field types. Otherwise,
+     * resulting object attributes may be null or a parsing exception is thrown.
+     * If the field is annotated with{@link Property} and has non-default params,
+     * annotation will be processed accordingly.
+     * @param cls Class type of the object to be returned
+     * @param propertiesPath path to the properties file
+     * @return created object of type {@link T} with attributes filled from the file
+     */
+
     public static <T> T loadFromProperties(Class<T> cls, Path propertiesPath) {
 
         // Casting (generic type erasure during compilation)
@@ -41,6 +55,15 @@ public final class TaskTwo {
 
         return fillObject(fields, mapFromProperties, castedObj, propertiesPath);
     }
+
+    /**
+     * Fills the object fields via reflection and returns this object.
+     * @param fields array of {@link Field} with allowed types
+     * @param mapFromProperties map of key-values from property file
+     * @param castedObj object to fill and return
+     * @param propertiesPath path in case an exception is thrown
+     * @return created object of type {@link T} with attributes filled from the map
+     */
 
     private static <T> T fillObject(Field[] fields,
                                    Map<String, String> mapFromProperties,
@@ -83,6 +106,18 @@ public final class TaskTwo {
         return castedObj;
     }
 
+    /**
+     * Processes annotation parameters.
+     * <ul>
+     *     <li>expectedPropertyName</li>
+     *     <li>expectedDateTimeFormat</li>
+     * </ul>
+     * @param field field, where annotation {@link Property} is present
+     * @param propertyAnnotation annotation itself
+     * @param propertiesPath file path in case an exception is thrown
+     * @return an array of annotation parameters
+     */
+
     private static String[] processPropertyAnnotation(Field field,
                                                       Property propertyAnnotation,
                                                       Path propertiesPath) {
@@ -112,6 +147,12 @@ public final class TaskTwo {
         return new String[] {fieldName, dateTimePattern};
     }
 
+    /**
+     * Reads the property file and puts each key-value pair (separated by the "=" sign)
+     * in a map.
+     * @param propertiesPath file path to be read
+     * @return map of key-vlue pairs from the file separated by the "=" sign
+     */
     private static Map<String, String> readPropertiesFile(Path propertiesPath) {
 
         String s;
@@ -142,6 +183,16 @@ public final class TaskTwo {
         return mapFromProperties;
     }
 
+    /**
+     * Parses value (String) from the map to Integer or int.
+     * @param field field to be filled with value
+     * @param castedObj object with the field
+     * @param checkString value from map to be parsed
+     * @param propertiesPath path to the file in case an exception is thrown
+     * @throws IllegalStateException if the parsing fails
+     * - and value cannot be assigned to Integer or int
+     * @throws IllegalAccessException if the field is not accessible (it is - syntax for compiler)
+     */
     private static <T> void parseNumber(Field field,
                                          T castedObj,
                                          String checkString,
@@ -163,6 +214,15 @@ public final class TaskTwo {
         }
     }
 
+    /**
+     * Sets the field of object with value from map.
+     * @param field field to be filled with value
+     * @param castedObj object with the field
+     * @param checkString value from map to be parsed
+     * @param propertiesPath path to the file in case an exception is thrown
+     * @throws IllegalStateException if the parsing fails - field is not of the type String
+     * @throws IllegalAccessException if the field is not accessible (it is - syntax for compiler)
+     */
     private static <T> void parseString(Field field,
                                          T castedObj,
                                          String checkString,
@@ -178,6 +238,16 @@ public final class TaskTwo {
         }
     }
 
+    /**
+     * Parses value (String) from the map to Instant.
+     * @param field field to be filled with value
+     * @param castedObj object with the field
+     * @param checkString value from map to be parsed
+     * @param propertiesPath path to the file in case an exception is thrown
+     * @throws IllegalStateException if the parsing fails - field is not of the type Instant
+     * or date-time pattern is malformed
+     * @throws IllegalAccessException if the field is not accessible (it is - syntax for compiler)
+     */
     private static <T> void parseInstant(Field field,
                                          T castedObj,
                                          String checkString,
@@ -266,6 +336,12 @@ public final class TaskTwo {
         return obj;
     }
 
+    /**
+     * Checks if the argument in constructor is a primitive or not
+     * @param constParamType argument to be checked
+     * @param actualParams array of constructor arguments
+     * @param i iteration from for loop
+     */
     private static void checkForPrimitivesInConstructor(Type constParamType,
                                                         Object[] actualParams, int i) {
         // Checking for primitives in constructor. Any type of object is already null.

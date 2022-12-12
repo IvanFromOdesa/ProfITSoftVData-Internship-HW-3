@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0263daab-6cf4-4960-93c7-5b38b1ad7412" name="Changes" comment="change">
+    <list default="true" id="0263daab-6cf4-4960-93c7-5b38b1ad7412" name="Changes" comment="Prefixes in annotation resolved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task_one/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task_one/TaskOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task_two/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task_two/TaskTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <recent name="C:\Users\Ivan\IdeaProjects\ProfITSoftVData-Internship-HW-3\src\test\test_res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TaskTwoTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="ProfITSoftVData-Internship-HW-3" />
@@ -108,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TaskTwoTests" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TaskTwoTests.shouldReturnObject_whenAnnotationChangeDateTimeFormat_andNoParseException" />
         <item itemvalue="JUnit.TaskTwoTests.shouldReturnObject_whenAnnotationCorrectParamName_andNoParsingException" />
         <item itemvalue="JUnit.TaskTwoTests.shouldThrowException_whenAnnotationUseExpectedInstantParamNotOnInstant" />
@@ -148,7 +147,7 @@
       <workItem from="1670705614628" duration="37000" />
       <workItem from="1670705676871" duration="596000" />
       <workItem from="1670756317757" duration="36466000" />
-      <workItem from="1670846725492" duration="25126000" />
+      <workItem from="1670846725492" duration="27477000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1670872256804</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670872565313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prefixes in annotation resolved">
+      <created>1670878469189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670878469189</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="change" />
-    <option name="LAST_COMMIT_MESSAGE" value="change" />
+    <MESSAGE value="Prefixes in annotation resolved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prefixes in annotation resolved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Main_java$TaskTwoTests.ic" NAME="TaskTwoTests Coverage Results" MODIFIED="1670875685476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
