@@ -33,7 +33,7 @@ public final class TaskTwo {
      * allowed types of field {@link #allowedTypes}. It also has to have field names
      * equal to those in properties file and appropriate field types. Otherwise,
      * resulting object attributes may be null or a parsing exception is thrown.
-     * If the field is annotated with{@link Property} and has non-default params,
+     * If the field is annotated with {@link Property} and has non-default params,
      * annotation will be processed accordingly.
      * @param cls Class type of the object to be returned
      * @param propertiesPath path to the properties file
@@ -122,10 +122,6 @@ public final class TaskTwo {
                                                       Property propertyAnnotation,
                                                       Path propertiesPath) {
         String fieldName = propertyAnnotation.expectedPropertyName();
-        // If we have prefix in annotation property, extract value after dot
-        if(fieldName.contains(".")) {
-            fieldName = fieldName.substring(fieldName.indexOf(".") + 1);
-        }
         // expectedPropertyName not specified
         if(fieldName.equals("")) {
             fieldName = field.getName();
@@ -151,7 +147,7 @@ public final class TaskTwo {
      * Reads the property file and puts each key-value pair (separated by the "=" sign)
      * in a map.
      * @param propertiesPath file path to be read
-     * @return map of key-vlue pairs from the file separated by the "=" sign
+     * @return map of key-value pairs from the file separated by the "=" sign
      */
     private static Map<String, String> readPropertiesFile(Path propertiesPath) {
 
