@@ -13,12 +13,12 @@
 2. Розробити класс-утиліту зі статичним методом, який приймає параметр типу Class і шлях до properties-файлу,
 створює об'єкт цього класу, наповнює його атрибути значеннями з properties-файлу (викоистовуючи сеттери) і повертає цей об'єкт.
 
-Приклад сигнатури метода:
+Приклад сигнатури метода:\
 **public static <T>T loadFromProperties(Class<T> cls, Path propertiesPath)**
 
-Properties-файл має формат:
-stringProperty=value1
-numberProperty=10
+Properties-файл має формат:\
+stringProperty=value1\
+numberProperty=10\
 timeProperty=29.11.2022 18:30
 
 Метод має вміти парсити строки, цілі числа (int та Integer) і дати з часом (Instant).
